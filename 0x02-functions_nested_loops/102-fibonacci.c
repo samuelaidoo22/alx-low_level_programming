@@ -17,8 +17,8 @@ int main(void)
 		fib_sum = fib1 + fib2;
 		printf(", %ld", fib_sum);
 
-		fib1 = fib;
-			fib2 = fib_sum;
+		fib1 = fib2;
+		fib2 = fib_sum;
 	}
 	printf("\n");
 
