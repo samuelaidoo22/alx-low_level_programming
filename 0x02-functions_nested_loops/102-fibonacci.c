@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int count, i;
+	int count;
 	long int fib1 = 1, fib2 = 2, fib_sum;
 
 	printf("%ld, %ld", fib1, fib2);
